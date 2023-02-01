@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="OrderManagementSystem.Site2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <%--6342--%>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+  <div>
+        <div> <h1>Order Management System<img src="images/master_banner.jpg" style="height: 139px; width: 634px; margin-left: 422px; margin-top: 0px" /></h1>
+            &nbsp;</div>
+        <hr />
+        <div>
+            <asp:Menu ID="Menu1" runat="server" BackColor="Yellow" DynamicHorizontalOffset="2" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" ForeColor="#990000" Height="26px" Orientation="Horizontal" RenderingMode="Table" StaticSubMenuIndent="10px" Width="50%">
+                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <DynamicMenuStyle BackColor="#FFFBD6" />
+                <DynamicSelectedStyle BackColor="#FFCC66" />
+                <Items>
+                    <asp:MenuItem Text="Home" NavigateUrl="~/Homepage.aspx"> </asp:MenuItem>
+                        <asp:MenuItem Text="Placeorder" NavigateUrl="~/PlaceOrder.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="ViewOrder" NavigateUrl="~/ViewOrder.aspx"></asp:MenuItem>
+                   
+                </Items>
+                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                <StaticSelectedStyle BackColor="#FFCC66" />
+            </asp:Menu>
+            <hr />
+            <asp:LinkButton ID="lnkLogout" runat="server" BackColor="Yellow" CausesValidation="False" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" Height="28px" OnClick="lnkLogout_Click" style="margin-left: 921px" Width="112px">Logout</asp:LinkButton>
+        </div>
+      <div>
+          <asp:Label ID="lblUser" runat="server" Height="25px" Width="144px" ></asp:Label>
+      </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+     <div>
+            <h4>Copyrights</h4>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

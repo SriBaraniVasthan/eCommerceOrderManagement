@@ -1,0 +1,7 @@
+c:\users\steve\documents\visual studio 2013\Projects\OrderManagementSystem\OrderManagementSystem\bin\OrderManagementSystem.dll.config
+c:\users\steve\documents\visual studio 2013\Projects\OrderManagementSystem\OrderManagementSystem\bin\OrderManagementSystem.dll
+c:\users\steve\documents\visual studio 2013\Projects\OrderManagementSystem\OrderManagementSystem\bin\OrderManagementSystem.pdb
+c:\users\steve\documents\visual studio 2013\Projects\OrderManagementSystem\OrderManagementSystem\bin\AjaxControlToolkit.dll
+c:\users\steve\documents\visual studio 2013\Projects\OrderManagementSystem\OrderManagementSystem\obj\Debug\OrderManagementSystem.csprojResolveAssemblyReference.cache
+c:\users\steve\documents\visual studio 2013\Projects\OrderManagementSystem\OrderManagementSystem\obj\Debug\OrderManagementSystem.dll
+c:\users\steve\documents\visual studio 2013\Projects\OrderManagementSystem\OrderManagementSystem\obj\Debug\OrderManagementSystem.pdb
